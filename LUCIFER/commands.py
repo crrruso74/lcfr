@@ -155,7 +155,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton(' 💥 sʜᴀʀᴇ & sᴜᴘᴘᴏʀᴛ 💥', url=https://t.me/MX_Networks)
+                          InlineKeyboardButton('💥 sʜᴀʀᴇ & sᴜᴘᴘᴏʀᴛ 💥', url='https://t.me/MX_Networks')
                        ]
                         ]
                     )
