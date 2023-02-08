@@ -449,8 +449,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/MX_Support_Bot'),
+                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/MX_Networks')
                        ]
                         ]
                     )
@@ -494,8 +494,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                  InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                  InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/MX_Support_Bot'),
+                  InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/MX_Networks')
                ]
                 ]
             )
@@ -742,13 +742,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "kd_cnl":
             cnlbtn = [[
-                      InlineKeyboardButton('Lᴜᴄɪғᴇʀ Bᴏᴛ Lᴏɢs', url="https://t.me/LuciferBot_logs")
+                      InlineKeyboardButton('Sʜᴏʀᴛɴᴇʀ Wᴇʙsɪᴛᴇ Lɪɴᴋ, url="https://omegalinks.in")
                      ], [
-                      InlineKeyboardButton('Gʀᴏᴜᴘ', url='t.me/mh_request'),
-                      InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='t.me/movieshouse8')
+                      InlineKeyboardButton('Gʀᴏᴜᴘ', url='t.me/MX_Movie_Request'),
+                      InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='t.me/iPopkarn')
                      ], [
-                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='t.me/kdbotz_support'),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='t.me/kd_botz')
+                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='t.me/MX_Support_Bot'),
+                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='t.me/MX_Networks')
                      ], [
                       InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
                      ]]
